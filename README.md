@@ -5,11 +5,6 @@ placement probability based on academic performance, technical skills,
 internships, projects, communication, aptitude, coding ability, attendance,
 and extracurricular activities.
 
-> ⚠️ **This system is trained on a SYNTHETIC / DEMO dataset** generated for
-> this educational/portfolio project. It does **not** use or represent real
-> student placement records, and predictions should not be treated as a
-> guarantee of actual outcomes.
-
 ---
 
 ## Features
