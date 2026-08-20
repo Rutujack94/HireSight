@@ -1,0 +1,48 @@
+{
+  "accuracy": 0.6833,
+  "precision": 0.69,
+  "recall": 0.7263,
+  "f1_score": 0.7077,
+  "roc_auc": 0.7346,
+  "confusion_matrix": [
+    [
+      54,
+      31
+    ],
+    [
+      26,
+      69
+    ]
+  ],
+  "train_size": 720,
+  "test_size": 180,
+  "feature_importances": {
+    "cgpa": 0.1103,
+    "coding_score": 0.0945,
+    "communication_score": 0.0876,
+    "attendance": 0.0817,
+    "twelfth_percentage": 0.0802,
+    "aptitude_score": 0.0768,
+    "tenth_percentage": 0.0732,
+    "backlogs": 0.0638,
+    "certifications": 0.0494,
+    "projects": 0.0493,
+    "internships": 0.044,
+    "extracurricular": 0.0293,
+    "javascript_skill": 0.0151,
+    "java_skill": 0.0136,
+    "cpp_skill": 0.0125,
+    "sql_skill": 0.0122,
+    "nodejs_skill": 0.0119,
+    "data_science_skill": 0.0117,
+    "machine_learning_skill": 0.0115,
+    "git_skill": 0.0115,
+    "python_skill": 0.0114,
+    "react_skill": 0.0104,
+    "docker_skill": 0.0102,
+    "django_skill": 0.0095,
+    "aws_skill": 0.0094,
+    "fastapi_skill": 0.0091
+  },
+  "note": "Metrics computed on a held-out test split of a SYNTHETIC / DEMO dataset. These numbers describe how well the model fits this synthetic data and are not a claim about real-world accuracy."
+}

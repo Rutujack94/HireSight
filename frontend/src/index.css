@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+  background-color: #f7f8fc;
+  color: #101828;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+.container-app {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.card {
+  @apply bg-surface-card rounded-2xl shadow-card border border-slate-100;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl bg-brand-600 px-5 py-3 font-semibold text-white shadow-card transition-all duration-200 hover:bg-brand-700 hover:shadow-card-hover active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-60;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-5 py-3 font-semibold text-slate-700 transition-all duration-200 hover:border-brand-300 hover:bg-brand-50 active:scale-[0.98];
+}
+
+.input-field {
+  @apply w-full rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-slate-800 placeholder-slate-400 outline-none transition-all duration-150 focus:border-brand-500 focus:ring-4 focus:ring-brand-100;
+}
+
+.input-field-error {
+  @apply border-red-300 focus:border-red-500 focus:ring-red-100;
+}
+
+.section-label {
+  @apply text-xs font-semibold uppercase tracking-wider text-brand-600;
+}
